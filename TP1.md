@@ -92,7 +92,8 @@ O notebook **features.ipynb** irá guiá-lo de forma a realizar este exercício,
 
 ### Q6: Bonus: Faça alguma coisa extra! (+10 pontos)
 
-Implementar, investigar ou analisar algo extra (relacionado com os tópicos dessa atividade, é claro) and using the code you developed. For example, is there some other interesting question we could have asked? Is there any insightful visualization you can plot? Or anything fun to look at? Or maybe you can experiment with a spin on the loss function? If you try out something cool we'll give you up to 10 extra points and may feature your results in the lecture.
+Implementar, investigar ou analisar algo extra (relacionado com os tópicos dessa atividade, é claro) e utilizando algum código desenvolvido por você. 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4NzY0NjQxNV19
+eyJoaXN0b3J5IjpbMzEzNjQyNTUyXX0=
 -->
