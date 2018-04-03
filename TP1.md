@@ -18,13 +18,13 @@ Obtenha os códigos/notebooks dessa atividade como um arquivo zipado [aqui](http
 
 ### Trabalhando remotamente na Google Cloud  usando CoLaboratory
 
-Você pode usar  [Google Colab](https://colab.research.google.com/) para realizar sua atividade. Dessa forma, você evitaria o trabalho de configurar sua instalação local, além de poder tirar melhor proveito de recursos CPU/GPU que os disponíveis localmente. Veja na página da disciplina para maiores informações.
+Você pode usar  [Google Colab](https://colab.research.google.com/) para realizar sua atividade. Dessa forma, você evitaria o trabalho de configurar sua instalação local, além de poder tirar melhor proveito de recursos CPU/GPU que os disponíveis localmente. Veja na [página da disciplina](http://www.icei.pucminas.br/professores/zenilton/introduction-to-deep-learning-2018/) para maiores informações.
 
 ### Trabalhando localmente
 Para você trabalhar localmente, deve seguir os passos abaixo:
 
 **Instalar Python 3.5+:**
-Você deverá usar **python3** (não deixe de verificar se sua instalação é das versões 3.5 ou 3.6). Veja mais informações sobre instalação de *python* na página da disciplina.
+Você deverá usar **python3** (não deixe de verificar se sua instalação é das versões 3.5 ou 3.6). Veja mais informações sobre instalação de *python* na [página da disciplina](http://www.icei.pucminas.br/professores/zenilton/introduction-to-deep-learning-2018/).
 
 **Ambiente virtual:**
 Caso você decida trabalhar localmente, é recomendável que você utilize um [ambiente virtual](http://docs.python-guide.org/en/latest/dev/virtualenvs/) para o seu trabalho. Caso você devida não usar um ambiente virtual, você deverá garantir que todas as dependências necessárias para o funcionamento do código estejam instaladas de forma global em sua máquina.
@@ -54,55 +54,45 @@ deactivate                       # Sair do ambiente virtual ao final
 
 Observe que cada vez que você quiser trabalhar na atividade, você deve ir até o subdiretório `TP1` e ativar o ambiente virtual antes de começar a trabalhar com o comando `.env/bin/activate` (ou `source .env/bin/activate`, no Linux). Ao final, use `deactivate` novamente para encerrar suas atividades.
 
-### Download data:
-Once you have the starter code (regardless of which method you choose above), you will need to download the CIFAR-10 dataset.
-Run the following from the `assignment1` directory:
+### Download do conjunto de dados:
+Vocè deve fazer o *download* do conjunto de dados **CIFAR-10**.
+
+Se você estiver usando Windows, basta baixar o [arquivo de dados](http://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz) no subdiretório `TP1/dl/datasets` e extrair seu conteúdo. Ao final desse processo, você deverá verificar a existência de um novo subdiretório chamado `cifar-10-batches-py` (contendo os arquivos de dados) dentro do subdiretório `TP1/dl/datasets`.
+
+Alternativamente, se você estiver do Linux, basta executar os seguintes comandos a partir do diretório `TP1`: 
 
 ```bash
-cd cs231n/datasets
+cd dl/datasets
 ./get_datasets.sh
 ```
 
-### Start IPython:
-After you have the CIFAR-10 data, you should start the IPython notebook server from the
-`assignment1` directory, with the `jupyter notebook` command. (See the [Google Cloud Tutorial](http://cs231n.github.io/gce-tutorial/) for any additional steps you may need to do for setting this up, if you are working remotely)
+### Iniciar IPython:
+Depois de você obter o conjunto de dados CIFAR-10, você deve iniciar o notebook IPython (ou Jupyter) a partir do diretório `TP1`, usando o comando `jupyter notebook`.
 
-If you are unfamiliar with IPython, you can also refer to our
-[IPython tutorial](/ipython-tutorial).
+Caso você não esteja familiarizado com notebooks IPython, veja na [página da disciplina](http://www.icei.pucminas.br/professores/zenilton/introduction-to-deep-learning-2018/) para maiores informações. .
 
-### Some Notes
-**NOTE 1:** This year, the `assignment1` code has been tested to be compatible with python versions `2.7`, `3.5`, `3.6` (it may work with other versions of `3.x`, but we won't be officially supporting them). You will need to make sure that during your `virtualenv` setup that the correct version of `python` is used. You can confirm your python version by (1) activating your virtualenv and (2) running `which python`.
+### Q1: Classificador k-Nearest Neighbor (20 pontos)
 
-**NOTE 2:** If you are working in a virtual environment on OSX, you may *potentially* encounter
-errors with matplotlib due to the [issues described here](http://matplotlib.org/faq/virtualenv_faq.html). In our testing, it seems that this issue is no longer present with the most recent version of matplotlib, but if you do end up running into this issue you may have to use the `start_ipython_osx.sh` script from the `assignment1` directory (instead of `jupyter notebook` above) to launch your IPython notebook server. Note that you may have to modify some variables within the script to match your version of python/installation directory. The script assumes that your virtual environment is named `.env`.
+O notebook  **knn.ipynb** irá guiá-lo de forma a realizar a implementação de um classificador kNN.
 
-### Submitting your work:
-Whether you work on the assignment locally or using Google Cloud, once you are done
-working run the `collectSubmission.sh` script; this will produce a file called
-`assignment1.zip`. Please submit this file on [Canvas](https://canvas.stanford.edu/courses/66461/).
+### Q2: Treinamento de um SVM (25 pontos)
 
-### Q1: k-Nearest Neighbor classifier (20 points)
+O notebook **svm.ipynb** irá guiá-lo de forma a realizar a implementação de um classificador SVM.
 
-The IPython Notebook **knn.ipynb** will walk you through implementing the kNN classifier.
+### Q3: Implementação  de um classificar Softmax (20 pontos)
 
-### Q2: Training a Support Vector Machine (25 points)
+O notebook **softmax.ipynb** irá guiá-lo de forma a realizar a implementação de um classificador Softmax.
 
-The IPython Notebook **svm.ipynb** will walk you through implementing the SVM classifier.
+### Q4: Rede Neural de Duas Camadas (25 pontos)
+O notebook **two\_layer\_net.ipynb** irá guiá-lo de forma a realizar a implementação de um classificador por meio de uma rede neural de duas camadas.
 
-### Q3: Implement a Softmax classifier (20 points)
+### Q5: Representações de Alto Nível: Descritores de Imagem (10 pontos)
 
-The IPython Notebook **softmax.ipynb** will walk you through implementing the Softmax classifier.
+O notebook **features.ipynb** irá guiá-lo de forma a realizar este exercício, no qual você irá examinar as melhorias obtidas por meio do uso de representações de alto nível ao invés de se trabalhar diretamente com os valores brutos dos pixels.
 
-### Q4: Two-Layer Neural Network (25 points)
-The IPython Notebook **two\_layer\_net.ipynb** will walk you through the implementation of a two-layer neural network classifier.
+### Q6: Bonus: Faça alguma coisa extra! (+10 pontos)
 
-### Q5: Higher Level Representations: Image Features (10 points)
-
-The IPython Notebook **features.ipynb** will walk you through this exercise, in which you will examine the improvements gained by using higher-level representations as opposed to using raw pixel values.
-
-### Q6: Cool Bonus: Do something extra! (+10 points)
-
-Implement, investigate or analyze something extra surrounding the topics in this assignment, and using the code you developed. For example, is there some other interesting question we could have asked? Is there any insightful visualization you can plot? Or anything fun to look at? Or maybe you can experiment with a spin on the loss function? If you try out something cool we'll give you up to 10 extra points and may feature your results in the lecture.
+Implementar, investigar ou analisar algo extra (relacionado com os tópicos dessa atividade, é claro) and using the code you developed. For example, is there some other interesting question we could have asked? Is there any insightful visualization you can plot? Or anything fun to look at? Or maybe you can experiment with a spin on the loss function? If you try out something cool we'll give you up to 10 extra points and may feature your results in the lecture.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ0ODMxOTYzXX0=
+eyJoaXN0b3J5IjpbMTA4NzY0NjQxNV19
 -->
