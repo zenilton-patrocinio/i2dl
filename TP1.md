@@ -1,3 +1,4 @@
+# Atividade 01
 
 Neste trabalho, você irá praticar de forma a implementar um *pipeline* simples para classificação de imagens utilizando tanto em um classificador **kNN** como um classificador **SVM**. Os objetivos desta atividade são os seguintes:
 
@@ -95,5 +96,5 @@ O notebook **features.ipynb** irá guiá-lo de forma a realizar este exercício,
 Implementar, investigar ou analisar algo extra (relacionado com os tópicos dessa atividade, é claro) e utilizando algum código desenvolvido por você. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzEzNjQyNTUyXX0=
+eyJoaXN0b3J5IjpbLTIwMTMzMzgwMzNdfQ==
 -->
