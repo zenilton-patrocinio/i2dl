@@ -1,7 +1,7 @@
 ## Stanford CS231n Notes
 
 ### 1. Neural Networks
-- Image Classification: Data-driven Approach, k-Nearest Neighbor, train/val/test splits
+- [Image Classification: Data-driven Approach, k-Nearest Neighbor, train/val/test splits](https://github.com/zenilton-patrocinio/i2dl/blob/master/classification.md)
 Details: L1/L2 distances, hyperparameter search, cross-validation
 
 - Linear classification: Support Vector Machine, Softmax
