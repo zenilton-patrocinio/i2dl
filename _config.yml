@@ -1,0 +1,19 @@
+
+# Site settings
+title: CS231n Convolutional Neural Networks for Visual Recognition
+email: zenilton@pucminas.br
+description: "Course materials and notes for I2DL: Introduction to Deep Learning (based on Stanford CS231n and Berkeley CS 294/129)."
+baseurl: ""
+url: "http://i2dl.github.io"
+# twitter_username: cs231n
+github_username:  zenilton-patrocinio
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+highlighter: rouge
+kramdown:
+  input: GFM
+  auto_ids: true
+  syntax_highlighter: rouge
