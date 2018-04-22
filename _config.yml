@@ -1,0 +1,18 @@
+# Site settings
+title: I2DL Introduction to Deep Learning
+email: zenilton@pucminas.br
+description: "Course materials and notes for PUC Minas class I2DL: Introduction to Deep Learning."
+baseurl: "http://zenilton-patrocinio.github.io/i2dl"
+url: "http://zenilton-patrocinio.github.io/i2dl"
+#twitter_username: cs231n
+github_username:  zenilton-patrocinio
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+highlighter: rouge
+kramdown:
+  input: GFM
+  auto_ids: true
+  syntax_highlighter: rouge
