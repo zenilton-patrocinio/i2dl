@@ -2,7 +2,7 @@
 title: I2DL  Introduction to Deep Learning
 email: zenilton@pucminas.br
 description: "Course materials and notes for I2DL: Introduction to Deep Learning (based on Stanford CS231n and Berkeley CS 294/129)."
-baseurl: "http://zenilton-patrocinio.github.io/i2dl"
+baseurl: ""
 url: "http://zenilton-patrocinio.github.io/i2dl"
 # twitter_username: cs231n
 github_username:  zenilton-patrocinio
