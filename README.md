@@ -1,6 +1,14 @@
 # i2dl
 Introduction to Deep Learning
 
+## Assingments
+
+- Assigment 01: bla bla bla
+
+- Assigment 02: bla bla bla
+
+- Assigment 03: bla bla bla
+
 ## Stanford CS231n Notes
 
 ### 1. Neural Networks
