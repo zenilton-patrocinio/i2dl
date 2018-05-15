@@ -20,10 +20,18 @@ para cada um dos *notebooks*, em que `FILE.ipynb` representa o *notebook*
 que se deseja converter. Então, você pode converter os arquivos HTML em 
 PDF utilizando seu navegador favorito :) 
 
-**Importante:** _Favor verificar que cada uma dos notebooks submetidos tenha 
-sido executado e que suas células de saída estejam visíveis._
+É possível fazer a conversão direto do *notebook* para PDF usando um
+comando como o seguinte:
 
-file of your assignment on AFS. To do this, run the provided `collectSubmission.sh` script, which will produce a file called `assignment2.zip`. You will then need to SCP this file over to Stanford AFS using the following command (entering your Stanford password if requested):
+```bash
+jupyter nbconvert --to pdf FILE.ipynb
+```
+Porém será necessário se instalar *Pandoc* ou *TeX* para que isso seja 
+possível. Maiores informações podem ser obtidas em [NBConvert Installation Notes](https://nbconvert.readthedocs.io/en/latest/install.html).
+
+**Importante: _Favor verificar que cada uma dos notebooks submetidos tenha 
+sido executado e que suas células de saída estejam visíveis._**
+
 
 **OBS2:** Para produzir o arquivo `zipado` contendo tudo o que 
 foi produzido durante a realização da atividade, não se deve incluir
