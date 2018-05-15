@@ -6,7 +6,7 @@ Serão necessários **dois passos** para submetir sua atividade:
 
 1. Submeter um arquivo `zipado` contendo uma versão `pdf` de cada um dos *notebooks* realizados na atividade.
 
-2. Submeter um arquivo `zipado` contendo tudo o que foi produzido durante a realização da atividade, isto é, todos os *notebooks*, códigos, etc (poré, sem incluir os conjunto de dados nem ambientes de teste).
+2. Submeter um arquivo `zipado` contendo tudo o que foi produzido durante a realização da atividade, isto é, todos os *notebooks*, códigos, etc (porém, sem incluir os conjunto de dados nem ambientes de teste).
 
 **OBS1:** Para produzir um arquivo `pdf`a partir de um notebook, você 
 deve primeiramente converter o arquivo do *notebook* (com extensão _ipynb_) 
