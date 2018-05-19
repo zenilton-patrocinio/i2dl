@@ -1,4 +1,10 @@
-# Submissão de Atividades Práticas
+---
+layout: page
+mathjax: true
+permalink: /submission/
+---
+
+## Submissão de Atividades Práticas
 
 A entrega de atividades práticas deve ser feita por meio do [Google Classroom](https://classroom.google.com/c/MTI4NDc5MjEwNTBa).
 
