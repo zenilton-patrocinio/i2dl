@@ -1,4 +1,9 @@
-# Atividade 01
+---
+layout: page
+mathjax: true
+permalink: /TP1/
+title: Atividade 01
+---
 
 Neste trabalho, você irá praticar de forma a implementar um *pipeline* simples para classificação de imagens utilizando tanto em um classificador **kNN** como um classificador **SVM**. Os objetivos desta atividade são os seguintes:
 
