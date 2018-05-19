@@ -53,7 +53,7 @@ Você deverá usar **python3** (não deixe de verificar se sua instalação é d
 **Ambiente virtual:**
 Caso você decida trabalhar localmente, é recomendável que você utilize um [ambiente virtual](http://docs.python-guide.org/en/latest/dev/virtualenvs/) para o seu trabalho. Caso você devida não usar um ambiente virtual, você deverá garantir que todas as dependências necessárias para o funcionamento do código estejam instaladas de forma global em sua máquina.
 
-Para configurar um ambiente virtual, descompacte o [arquivo zipado da atividade](https://drive.google.com/file/d/1q4OF2MBQ7ZhF6t5f8lcmDpy1iblzsacR/view?usp=sharing) e execute o seguinte:
+Para configurar um ambiente virtual, descompacte o [arquivo zipado da atividade](xxx) e execute o seguinte:
 
 ```bash
 cd TP2
