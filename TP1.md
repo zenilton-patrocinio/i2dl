@@ -34,12 +34,18 @@ Para configurar um ambiente virtual, descompacte o [arquivo zipado da atividade]
 
 ```bash
 cd TP1
-sudo pip install virtualenv      # Esse pacote pode já estar instalado
+pip install virtualenv           # Esse pacote pode já estar instalado
+# OBS: no Linux você deve usar "sudo pip install virtualenv"
 
+# Se a versão default do python for 3.x, você deve criar ambiente virtual com o seguinte comando
+virtualenv .env                  # Criar um ambiente virtual (python3)
+
+# Caso vc tenha instalado duas versões de python (2.x e 3.x), você deve especificar a versão a ser utilizada (usar sempre a 3.x) 
 virtualenv -p python3 .env       # Criar um ambiente virtual (python3)
-# OBS: você pode tb usar "virtualenv .env" para utilizar a versão default de python instalada (geralmente python 2.7)
 
-.env/bin/activate				 # Ativa o ambiente virtual
+# OBS: você sempre pode tb usar "virtualenv .env" para utilizar a versão default de python instalada (mas cuidado pois geralmente a versão será python 2.7)
+
+.env\Scripts\activate				     # Ativa o ambiente virtual (ou, em alguns casos, ".env\bin\activate")
 # OBS: no Linux você deve usar "source .env/bin/activate"
 
 pip install -r config/requirements-win.txt  # Instala dependências
@@ -53,7 +59,7 @@ pip install -r config/requirements-win.txt  # Instala dependências
 deactivate                       # Sair do ambiente virtual ao final
 ```
 
-Observe que cada vez que você quiser trabalhar na atividade, você deve ir até o subdiretório `TP1` e ativar o ambiente virtual antes de começar a trabalhar com o comando `.env/bin/activate` (ou `source .env/bin/activate`, no Linux). Ao final, use `deactivate` novamente para encerrar suas atividades.
+Observe que cada vez que você quiser trabalhar na atividade, você deve ir até o subdiretório `TP1` e ativar o ambiente virtual antes de começar a trabalhar com o comando `.env\Scripts\activate` ou `.env\bin\activate` (ou `source .env/bin/activate`, no Linux). Ao final, use `deactivate` novamente para encerrar suas atividades.
 
 ### Download do conjunto de dados:
 Vocè deve fazer o *download* do conjunto de dados **CIFAR-10**.
