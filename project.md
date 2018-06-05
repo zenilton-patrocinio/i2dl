@@ -147,21 +147,17 @@ previous years.
 -->
 
 ## Important Dates
-Unless otherwise noted, all project items are due by 11:59 pm Pacific Time.<br>
   <ul>
-    <li>Project proposal: due Wednesday, April 25.</li>
-    <li>Project milestone: due Wednesday, May 16.</li>
-    <li>Final report: due Thursday, June 7. <b>No late days.</b></li>
-    <li>Poster PDF: due Monday, June 11. <b>No late days.</b></li>
-    <li>Poster session: Tuesday, June 12</li>
+    <li>Project proposal: due Tuesday, June 19.</li>
+    <li>Project milestone: due Tuesday, July 10.</li>
+    <li>Final report: due Wednesday, August 1. <b>No late days.</b></li>
   </ul>
 
-  <h2>Project Proposal</h2>
-  <p>
-    The project proposal should be one paragraph (200-400 words). Your project proposal should
-    describe:
-  </p>
-  <ul>
+## Project Proposal
+he project proposal should be one paragraph (200-400 words). Your project proposal should
+describe:
+
+<ul>
     <li>What is the problem that you will be investigating? Why is it interesting?</li>
     <li>What reading will you examine to provide context and background?</li>
     <li>What data will you use? If you are collecting new data, how will you do it?</li>
@@ -177,18 +173,12 @@ Unless otherwise noted, all project items are due by 11:59 pm Pacific Time.<br>
       compare your results (e.g. what performance metrics or statistical tests)?
     </li>
   </ul>
-  <p>
-    <b>Submission:</b>
-    Please submit your proposal as a PDF on Gradescope. <b>Only one person on your team should submit.</b>
-    Please have this person add the rest of your team as collaborators as a "Group Submission".
-  </p>
 
-  <h2>Project Milestone</h2>
-  Your project milestone report should be between 2 - 3 pages using the
-  <a href="http://cvpr2017.thecvf.com/files/cvpr2017AuthorKit.zip">provided template</a>.
-  The following is a suggested structure for your report:
-  <p>
-    <ul>
+## Project Milestone
+Your project milestone report should be between 2 - 3 pages using the  <a href="http://cvpr2017.thecvf.com/files/cvpr2017AuthorKit.zip">provided template</a>.
+The following is a suggested structure for your report:
+
+<ul>
       <li>Title, Author(s)</li>
       <li>Introduction: this section introduces your problem, and the overall plan for approaching your problem</li>
       <li>Problem statement: Describe your problem precisely specifying the dataset to be used, expected results and evaluation</li>
@@ -196,31 +186,24 @@ Unless otherwise noted, all project items are due by 11:59 pm Pacific Time.<br>
       <li>
       Intermediate/Preliminary Results: State and evaluate your results upto the milestone
       </li>
-    </ul>
-  </p>
-  <p>
-    <strong>Submission</strong>:
-    Please submit your milestone as a PDF on Gradescope. <b>Only one person on your team should submit.</b>
-    Please have this person add the rest of your team as collaborators as a "Group Submission".
-  </p>
+</ul>
 
-  <h2>Final Report</h2>
-  <p>
-    Your final write-up is required to be between <b>6 - 8</b> pages using the
-    <a href="http://www.pamitc.org/cvpr15/files/cvpr2015AuthorKit.zip">provided template</a>,
-    structured like a paper from a computer vision conference (CVPR, ECCV, ICCV, etc.).
-    Please use this template so we can fairly judge all student projects without worrying about
-    altered font sizes, margins, etc. After the class, we will post all the final reports online
-    so that you can read about each others' work. If you do not want your writeup to be posted
-    online, then please let us know at least a week in advance of the final writeup submission
-    deadline.
-  </p>
-  <p>
-    The following is a suggested structure for your report, as well as the rubric that we will
-    follow when evaluating reports. You don't necessarily have to organize your report using
-    these sections in this order, but that would likely be a good starting point for most projects.
-  </p>
-  <ul>
+## Final Report
+
+Your final write-up is required to be between <b>6 - 8</b> pages using the
+<a href="http://www.pamitc.org/cvpr15/files/cvpr2015AuthorKit.zip">provided template</a>,
+structured like a paper from a computer vision conference (CVPR, ECCV, ICCV, etc.).
+Please use this template so we can fairly judge all student projects without worrying about
+altered font sizes, margins, etc. After the class, we will post all the final reports online
+so that you can read about each others' work. If you do not want your writeup to be posted
+online, then please let us know at least a week in advance of the final writeup submission
+deadline.
+
+The following is a suggested structure for your report, as well as the rubric that we will
+follow when evaluating reports. You don't necessarily have to organize your report using
+these sections in this order, but that would likely be a good starting point for most projects.
+
+<ul>
     <li><b>Title, Author(s)</b></li>
     <li>
       <b>Abstract</b>: Briefly describe your problem, approach, and key results. Should be no more
@@ -287,15 +270,13 @@ Unless otherwise noted, all project items are due by 11:59 pm Pacific Time.<br>
       </ul>
     </li>
   </ul>
-  <p>
-    <b>Submission</b>:
+
+**Submission**:
     You will submit your final report as a PDF and your supplementary material as a separate PDF
     or ZIP file. We will provide detailed submission instructions as the deadline nears.
-  </p>
-  <p>
-    <b>Additional Submission Requirements</b>:
+
+**Additional Submission Requirements**:
     We will also ask you do do the following when you submit your project report:
-  </p>
   <ul>
     <li>
       <b>Your report PDF should list <i>all</i> authors who have contributed to your work; enough to
@@ -329,79 +310,8 @@ Unless otherwise noted, all project items are due by 11:59 pm Pacific Time.<br>
       Remember, it is an honor code violation to use the same final report PDF for multiple classes.
     </li>
   </ul>
-  <p>
-    In summary, include all contributing authors in your PDF; include detailed non-231N co-author
-    information; tell us if you submitted to a conference, cite any code you used, and submit your
-    dual-project report (e.g., CS 230, CS 231A, CS 234).
-  </p>
-  
-  <h2>Poster Session</h2>
-  We will hold a poster session in which you will present the results of your projects is form of a poster.<br>
-  <ul>
-    <li><b>Date:</b> Tuesday, June 12, 2018</li>
-    <li><b>Time:</b> 12:00 pm to 3:15 pm </li>
-    <li><b>Location:</b> <a href="https://engineering.stanford.edu/location">/a>Jen-Hsun Huang Engineering Center</a>a</li>
-    <li>
-      <b>Who:</b> All on-campus students are required to attend. Local SCPD students are highly
-      recommended to attend. Stanford students, faculty, and guests from industry are welcome!
-    </li>
-    <li><b>Food:</b> Food and light refreshments will be provided.</li>
-  </ul>
-  <p>
-    Students: We will provide foam poster boards and easels. Please print your poster on a 20 inch
-    by 30 inch poster in either landscape or portrait format. Posters larger than 24 inch by 36
-    inches may not fit on our poster boards.  All students are required to submit a PDF of their
-    poster before the event. See Piazza for details. Caution: Do not wait until the day before the
-    event to print your poster. Many on-campus printers (e.g., EE, BioX) run out of paper or toner
-    during the last week of classes. Many other courses also have poster presentations or academic
-    conferences take place during this week and there is no guarantee they will be able to
-    rush-print your order.
-  </p>
 
-  <b>Frequently Asked Questions</b>
-  <ul>
-    <li>
-      <b>I can only attend part of the poster session. Is that okay?</b>
-      Yes, but you will lose all points for the project poster. Your team's scores will be unaffected.
-      We will be taking attendance and TAs/graders/instructors may visit your poster at any time.
-    </li>
-    <li>
-      <b>At the event, can I leave my poster and walk around?</b> Yes. We encourage you to visit
-      other posters and learn about the cutting-edge projects other students are working on.
-      However, we do ask that you periodically return to your poster in case a TA or instructor
-      needs to grade your poster.
-    </li>
-    <li>
-      <b>I am a local SCPD student, is attendance required?</b> No. However, the poster session is
-      an immensely valuable opportunity to network with on-campus students, the course staff, and
-      various industry representatives (e.g., investors and recruiters). We strongly recommend you
-      attend if possible. Many SCPD students cite the poster session as their favorite part of the
-      class.
-    </li>
-    <li>
-      <b>I am a non-local SCPD student and cannot attend. Do I have to make a poster?</b> 
-      Yes. You are required to submit your poster as a PDF to Gradescope with the same deadline as
-      on-campus students. We may require you to record a video of yourself presenting or conduct
-      a presentation over video/conference call at a different time; check Piazza for details
-      closer to the event.
-    </li>
-    <li>
-      <b>Can I print my poster on 8.5"x11" pieces of paper and tape it together?</b> 
-      Yes - we will not deduct points if you choose to do this. However we recommend you print a
-      full-sized poster if possible. Not only can you fit more content on a poster, but the visual
-      appeal can help attract visitors and spur additional research discussions about your project.
-    </li>
-    <li>
-      <b>Will you reimburse for poster printing costs?</b>
-      Unfortunately no. Several departments at Stanford offer free or discounted poster printing to
-      students. Many local businesses (e.g., Staples, FedEx, etc.) offer same-day printing services
-      at reasonable prices.
-      <a href="https://vptl.stanford.edu/student-resources/computers-printing/poster-printing-lathrop" target="_blank">Lathrop Library</a>
-      offers on-campus poster printing services.
-    </li>
-    <li>
-      <b>I'm part of an organization and we'd like to sponsor or help contribute to the event. How can we get involved?</b>
-      Please send an email to the course staff at cs231n-spring1718-staff@lists.stanford.edu. We have several sponsorship levels available.
-    </li>
-  </ul>
-</div>
+In summary, include all contributing authors in your PDF; include detailed non-231N co-author
+information; tell us if you submitted to a conference, cite any code you used, and submit your
+dual-project report (e.g., CS 230, CS 231A, CS 234).
+
