@@ -23,7 +23,7 @@ Os objetivos desta atividade são os seguintes:
 ## Configuração
 Você pode trabalhar nessa atividade tanto de forma local (em sua própria máquina ou de forma remota (por exemplo, utilizando uma máquina virtual na *Google Cloud*).
 
-Obtenha os códigos/notebooks dessa atividade como um arquivo zipado [aqui](https://drive.google.com/file/d/1q4OF2MBQ7ZhF6t5f8lcmDpy1iblzsacR/view?usp=sharing).
+Obtenha os códigos/notebooks dessa atividade como um arquivo zipado [aqui](https://drive.google.com/file/d/1_Tf1WBBDm0VPETisCye_K4LpJswEh4DC/view?usp=sharing).
 
 ### Trabalhando remotamente na Google Cloud  usando CoLaboratory
 
@@ -53,7 +53,7 @@ Você deverá usar **python3** (não deixe de verificar se sua instalação é d
 **Ambiente virtual:**
 Caso você decida trabalhar localmente, é recomendável que você utilize um [ambiente virtual](http://docs.python-guide.org/en/latest/dev/virtualenvs/) para o seu trabalho. Caso você devida não usar um ambiente virtual, você deverá garantir que todas as dependências necessárias para o funcionamento do código estejam instaladas de forma global em sua máquina.
 
-Para configurar um ambiente virtual, descompacte o [arquivo zipado da atividade](xxx) e execute o seguinte:
+Para configurar um ambiente virtual, descompacte o [arquivo zipado da atividade](https://drive.google.com/file/d/1q4OF2MBQ7ZhF6t5f8lcmDpy1iblzsacR/view?usp=sharing) e execute o seguinte:
 
 ```bash
 cd TP2
@@ -108,6 +108,30 @@ cd dl/datasets
 ./get_datasets.sh
 ```
 
+### Compilando as extensões *Cython*: 
+
+Redes neurais convolucionais necessitam de uma implementação muito eficiente. 
+Para isto, foi feita uma implementação de algumas facilidades por meio do
+[Cython](http://cython.org/).
+
+Você já vai receber algumas versões precompiladas; contudo, dependendo de seu 
+ambiente de trabalho (SO + Python), 
+talvez você tenha que compilar a extensão `Cython` antes de executar o código 
+(sendo necessária também a disponibilidade de um compilador compatível e a instalação de alguns pacotes adicionais).
+
+Para compilação, vc deve executar os seguintes comandos a partir do
+diretório `TP2`: 
+
+
+```bash
+cd dl
+python setup.py build_ext --inplace
+```
+
+OBS: Uma boa sugestão é tentar executar a primeira célula do primeiro 
+*notebook*, pois, se houver necessidade de compilar as extensões *Cython*, 
+você será informado.
+
 ### Iniciar IPython:
 Depois de você obter o conjunto de dados CIFAR-10, você deve iniciar o notebook IPython 
 (ou Jupyter) a partir do diretório `TP2`, usando o comando `jupyter notebook`.
@@ -142,4 +166,5 @@ várias camadas comumente utilizadas em redes convolucionais.
 O notebook **TensorFlow.ipynb** irá guiá-lo de forma a explorar um dos mais popular e poderosos
 *frameworks* para apredizagem profunda, culminando com o treinamento de uma rede convolucional 
 projetada por você de modo a obter seus melhores resultados sobre a base de dados CIFAR-10.
+
 
