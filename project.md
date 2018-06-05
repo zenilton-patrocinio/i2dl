@@ -173,6 +173,7 @@ describe:
       compare your results (e.g. what performance metrics or statistical tests)?
     </li>
   </ul>
+**Submission:** Please submit your proposal as a PDF file.
 
 ## Project Milestone
 Your project milestone report should be between 2 - 3 pages using the  <a href="http://cvpr2017.thecvf.com/files/cvpr2017AuthorKit.zip">provided template</a>.
@@ -187,6 +188,7 @@ The following is a suggested structure for your report:
       Intermediate/Preliminary Results: State and evaluate your results upto the milestone
       </li>
 </ul>
+**Submission:** Please submit your milestone report as a PDF file.
 
 ## Final Report
 
@@ -273,7 +275,7 @@ these sections in this order, but that would likely be a good starting point for
 
 **Submission**:
     You will submit your final report as a PDF and your supplementary material as a separate PDF
-    or ZIP file. We will provide detailed submission instructions as the deadline nears.
+    or ZIP file.
 
 **Additional Submission Requirements**:
     We will also ask you do do the following when you submit your project report:
