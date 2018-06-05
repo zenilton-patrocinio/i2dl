@@ -38,7 +38,7 @@ For applications, this type of projects would involve careful data preparation, 
 loss function, details of training and cross-validation and good test set evaluations and model
 comparisons. Don't be afraid to think outside of the box. Some successful examples can be found
 below:
-- [Teaching Deep Convolutional Neural Networks to Play Go]{http://arxiv.org/abs/1412.3409)
+- [Teaching Deep Convolutional Neural Networks to Play Go](http://arxiv.org/abs/1412.3409)
 - [Playing Atari with Deep Reinforcement Learning](http://arxiv.org/abs/1312.5602)
 - [Winning the Galaxy Challenge with convnets](http://blog.kaggle.com/2014/04/18/winning-the-galaxy-challenge-with-convnets/)
 - [Recommending music on Spotify with deep learning](http://benanne.github.io/2014/08/05/spotify-cnns.html)
@@ -54,74 +54,74 @@ new models or improving existing models for a vision task. The list below presen
 on recent advances of ConvNets in the computer vision community.
 
 ### Image Classification
-      <a href="http://www.cs.toronto.edu/~fritz/absps/imagenet.pdf">[Krizhevsky et al.]</a>,
-      <a href="http://arxiv.org/abs/1409.0575">[Russakovsky et al.]</a>,
-      <a href="http://arxiv.org/abs/1409.4842">[Szegedy et al.]</a>,
-      <a href="http://arxiv.org/abs/1409.1556">[Simonyan et al.]</a>,
-      <a href="http://arxiv.org/abs/1406.4729">[He et al.]</a>,
-      <a href="https://arxiv.org/abs/1608.06993">[Huang et al.]</a>,
-      <a href="https://arxiv.org/abs/1709.01507">[Hu et al.]</a>
-      <a href="https://arxiv.org/abs/1707.07012">[Zoph et al.]</a>
+- <a href="http://www.cs.toronto.edu/~fritz/absps/imagenet.pdf">[Krizhevsky et al.]</a>,
+- <a href="http://arxiv.org/abs/1409.0575">[Russakovsky et al.]</a>,
+- <a href="http://arxiv.org/abs/1409.4842">[Szegedy et al.]</a>,
+- <a href="http://arxiv.org/abs/1409.1556">[Simonyan et al.]</a>,
+- <a href="http://arxiv.org/abs/1406.4729">[He et al.]</a>,
+- <a href="https://arxiv.org/abs/1608.06993">[Huang et al.]</a>,
+- <a href="https://arxiv.org/abs/1709.01507">[Hu et al.]</a>
+- <a href="https://arxiv.org/abs/1707.07012">[Zoph et al.]</a>
 
 ### Object detection
-      <a href="http://arxiv.org/abs/1311.2524">[Girshick et al.]</a>,
-      <a href="https://arxiv.org/abs/1506.01497">[Ren et al.]</a>,
-      <a href="https://arxiv.org/abs/1703.06870">[He et al.]</a>
+- <a href="http://arxiv.org/abs/1311.2524">[Girshick et al.]</a>,
+- <a href="https://arxiv.org/abs/1506.01497">[Ren et al.]</a>,
+- <a href="https://arxiv.org/abs/1703.06870">[He et al.]</a>
 
 #### Image segmentation 
-      <a href="http://arxiv.org/abs/1411.4038">[Long et al.]</a>
-      <a href="https://arxiv.org/abs/1505.04366">[Noh et al.]</a>
-      <a href="http://ieeexplore.ieee.org/abstract/document/7913730/">[Chen et al.]</a>
+- <a href="http://arxiv.org/abs/1411.4038">[Long et al.]</a>
+- <a href="https://arxiv.org/abs/1505.04366">[Noh et al.]</a>
+- <a href="http://ieeexplore.ieee.org/abstract/document/7913730/">[Chen et al.]</a>
 
 ### Video classification
-      <a href="http://cs.stanford.edu/people/karpathy/deepvideo/">[Karpathy et al.]</a>,
-      <a href="http://arxiv.org/abs/1406.2199">[Simonyan and Zisserman]</a>
-      <a href="https://arxiv.org/abs/1412.0767">[Tran et al.]</a>
-      <a href="https://arxiv.org/abs/1705.07750">[Carreira et al.]</a>
-      <a href="https://arxiv.org/abs/1711.07971">[Wang et al.]</a>
+- <a href="http://cs.stanford.edu/people/karpathy/deepvideo/">[Karpathy et al.]</a>,
+- <a href="http://arxiv.org/abs/1406.2199">[Simonyan and Zisserman]</a>
+- <a href="https://arxiv.org/abs/1412.0767">[Tran et al.]</a>
+- <a href="https://arxiv.org/abs/1705.07750">[Carreira et al.]</a>
+- <a href="https://arxiv.org/abs/1711.07971">[Wang et al.]</a>
 
 ### Scene classification
-      <a href="http://places.csail.mit.edu/">[Zhou et al.]</a>
+- <a href="http://places.csail.mit.edu/">[Zhou et al.]</a>
 
 ### Face recognition
-      <a href="http://www.cv-foundation.org/openaccess/content_cvpr_2014/papers/Taigman_DeepFace_Closing_the_2014_CVPR_paper.pdf">[Taigman et al.]</a>
-      <a href="https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Schroff_FaceNet_A_Unified_2015_CVPR_paper.pdf">[Schroff et al.]</a>
-      <a href="http://cis.csuohio.edu/~sschung/CIS660/DeepFaceRecognition_parkhi15.pdf">[Parkhi et al.]</a>
+- <a href="http://www.cv-foundation.org/openaccess/content_cvpr_2014/papers/Taigman_DeepFace_Closing_the_2014_CVPR_paper.pdf">[Taigman et al.]</a>
+- <a href="https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Schroff_FaceNet_A_Unified_2015_CVPR_paper.pdf">[Schroff et al.]</a>
+- <a href="http://cis.csuohio.edu/~sschung/CIS660/DeepFaceRecognition_parkhi15.pdf">[Parkhi et al.]</a>
 
 ### Depth estimation
-      <a href="http://www.cs.nyu.edu/~deigen/depth/">[Eigen et al.]</a>
+- <a href="http://www.cs.nyu.edu/~deigen/depth/">[Eigen et al.]</a>
 
 ### Image-to-sentence generation
-      <a href="http://cs.stanford.edu/people/karpathy/deepimagesent/">[Karpathy and Fei-Fei]</a>,
-      <a href="http://arxiv.org/abs/1411.4389">[Donahue et al.]</a>,
-      <a href="http://arxiv.org/abs/1411.4555">[Vinyals et al.]</a>
-      <a href="https://arxiv.org/pdf/1502.03044.pdf">[Xu et al.]</a>
-      <a href="https://arxiv.org/abs/1511.07571">[Johnson et al.]</a>
+- <a href="http://cs.stanford.edu/people/karpathy/deepimagesent/">[Karpathy and Fei-Fei]</a>,
+- <a href="http://arxiv.org/abs/1411.4389">[Donahue et al.]</a>,
+- <a href="http://arxiv.org/abs/1411.4555">[Vinyals et al.]</a>
+- <a href="https://arxiv.org/pdf/1502.03044.pdf">[Xu et al.]</a>
+- <a href="https://arxiv.org/abs/1511.07571">[Johnson et al.]</a>
 
 ### Visualization and optimization
-      <a href="http://arxiv.org/pdf/1312.6199v4.pdf">[Szegedy et al.]</a>,
-      <a href="http://arxiv.org/abs/1412.1897">[Nguyen et al.]</a>,
-      <a href="http://arxiv.org/abs/1311.2901">[Zeiler and Fergus]</a>,
-      <a href="http://arxiv.org/abs/1412.6572">[Goodfellow et al.]</a>,
-      <a href="http://arxiv.org/abs/1312.6055">[Schaul et al.]</a>
+- <a href="http://arxiv.org/pdf/1312.6199v4.pdf">[Szegedy et al.]</a>,
+- <a href="http://arxiv.org/abs/1412.1897">[Nguyen et al.]</a>,
+- <a href="http://arxiv.org/abs/1311.2901">[Zeiler and Fergus]</a>,
+- <a href="http://arxiv.org/abs/1412.6572">[Goodfellow et al.]</a>,
+- <a href="http://arxiv.org/abs/1312.6055">[Schaul et al.]</a>
 
 You might also gain inspiration by taking a look at some popular computer vision datasets:
 
-<li><a href="http://www.cvpapers.com/datasets.html">Meta Pointer: A large collection organized by CV Datasets.</a></li>
-<li><a href="http://riemenschneider.hayko.at/vision/dataset/">Yet another Meta pointer</a></li>
-<li><a href="http://http://image-net.org/">ImageNet</a>: a large-scale image dataset for visual recognition organized by <a href="http://wordnet.princeton.edu/">WordNet</a> hierarchy</li>
-<li><a href="http://groups.csail.mit.edu/vision/SUN/">SUN Database</a>: a benchmark for scene recognition and object detection with annotated scene categories and segmented objects</li>
-<li><a href="http://places.csail.mit.edu/">Places Database</a>: a scene-centric database with 205 scene categories and 2.5 millions of labelled images</li>
-<li><a href="http://cs.nyu.edu/~silberman/datasets/nyu_depth_v2.html">NYU Depth Dataset v2</a>: a RGB-D dataset of segmented indoor scenes</li>
-<li><a href="http://mscoco.org/">Microsoft COCO</a>: a new benchmark for image recognition, segmentation and captioning</li>
-<li><a href="http://yahoolabs.tumblr.com/post/89783581601/one-hundred-million-creative-commons-flickr-images">Flickr100M</a>: 100 million creative commons Flickr images</li>
-<li><a href="http://vis-www.cs.umass.edu/lfw/">Labeled Faces in the Wild</a>: a dataset of 13,000 labeled face photographs</li>
-<li><a href="http://human-pose.mpi-inf.mpg.de/">Human Pose Dataset</a>: a benchmark for articulated human pose estimation</li>
-<li><a href="http://www.cs.tau.ac.il/~wolf/ytfaces/">YouTube Faces DB</a>: a face video dataset for unconstrained face recognition in videos</li>
-<li><a href="http://crcv.ucf.edu/data/UCF101.php">UCF101</a>: an action recognition data set of realistic action videos with 101 action categories</li>
-<li><a href="http://serre-lab.clps.brown.edu/resource/hmdb-a-large-human-motion-database/">HMDB-51</a>: a large human motion dataset of 51 action classes</li>
-<li><a href="http://activity-net.org/">ActivityNet</a>: A large-scale video dataset for human activity understanding</li>
-<li><a href="http://moments.csail.mit.edu/">Moments in Time</a>: A dataset of one million 3-second videos</li>
+- <a href="http://www.cvpapers.com/datasets.html">Meta Pointer: A large collection organized by CV Datasets.</a>
+- <a href="http://riemenschneider.hayko.at/vision/dataset/">Yet another Meta pointer</a>
+- <a href="http://http://image-net.org/">ImageNet</a>: a large-scale image dataset for visual recognition organized by <a href="http://wordnet.princeton.edu/">WordNet</a> hierarchy
+- <a href="http://groups.csail.mit.edu/vision/SUN/">SUN Database</a>: a benchmark for scene recognition and object detection with annotated scene categories and segmented objects
+- <a href="http://places.csail.mit.edu/">Places Database</a>: a scene-centric database with 205 scene categories and 2.5 millions of labelled images
+- <a href="http://cs.nyu.edu/~silberman/datasets/nyu_depth_v2.html">NYU Depth Dataset v2</a>: a RGB-D dataset of segmented indoor scenes
+- <a href="http://mscoco.org/">Microsoft COCO</a>: a new benchmark for image recognition, segmentation and captioning
+- <a href="http://yahoolabs.tumblr.com/post/89783581601/one-hundred-million-creative-commons-flickr-images">Flickr100M</a>: 100 million creative commons Flickr images
+- <a href="http://vis-www.cs.umass.edu/lfw/">Labeled Faces in the Wild</a>: a dataset of 13,000 labeled face photographs
+- <a href="http://human-pose.mpi-inf.mpg.de/">Human Pose Dataset</a>: a benchmark for articulated human pose estimation
+- <a href="http://www.cs.tau.ac.il/~wolf/ytfaces/">YouTube Faces DB</a>: a face video dataset for unconstrained face recognition in videos
+- <a href="http://crcv.ucf.edu/data/UCF101.php">UCF101</a>: an action recognition data set of realistic action videos with 101 action categories
+- <a href="http://serre-lab.clps.brown.edu/resource/hmdb-a-large-human-motion-database/">HMDB-51</a>: a large human motion dataset of 51 action classes
+- <a href="http://activity-net.org/">ActivityNet</a>: A large-scale video dataset for human activity understanding
+- <a href="http://moments.csail.mit.edu/">Moments in Time</a>: A dataset of one million 3-second videos
 
 <h2>Collaboration Policy</h2>
 <p>
