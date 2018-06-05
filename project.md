@@ -129,7 +129,7 @@ You might also gain inspiration by taking a look at some popular computer vision
 You can work in teams of up to <strong>2~3</strong> people. We do expect that projects done with
 3 people have more impressive writeup and results than projects done with 2 people. To get a
 sense for the scope and expectations for 2-people projects have a look at project reports from
-previous years.
+previous years of Stanford/CS231n and Berkeley/CS294-129 (see above).
 
 <!--
   <h2>Honor Code</h2>
