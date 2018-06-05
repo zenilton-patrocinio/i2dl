@@ -123,14 +123,14 @@ You might also gain inspiration by taking a look at some popular computer vision
 - <a href="http://activity-net.org/">ActivityNet</a>: A large-scale video dataset for human activity understanding
 - <a href="http://moments.csail.mit.edu/">Moments in Time</a>: A dataset of one million 3-second videos
 
-<h2>Collaboration Policy</h2>
-<p>
-    You can work in teams of up to <strong>3</strong> people. We do expect that projects done with
-    3 people have more impressive writeup and results than projects done with 2 people. To get a
-    sense for the scope and expectations for 2-people projects have a look at project reports from
-    previous years.
-  </p>
+## Collaboration Policy
 
+You can work in teams of up to <strong>2~3</strong> people. We do expect that projects done with
+3 people have more impressive writeup and results than projects done with 2 people. To get a
+sense for the scope and expectations for 2-people projects have a look at project reports from
+previous years.
+
+<!--
   <h2>Honor Code</h2>
   <p>
     You may consult any papers, books, online references, or publicly available implementations for
@@ -144,9 +144,10 @@ You might also gain inspiration by taking a look at some popular computer vision
     the exact portion of the project that is being counted for CS 231n. In this case you must prepare
     separate reports for each course, and submit your final report for the other course as well.
   </p>
+-->
 
-  <h2>Important Dates</h2>
-  Unless otherwise noted, all project items are due by 11:59 pm Pacific Time.<br>
+## Important Dates
+Unless otherwise noted, all project items are due by 11:59 pm Pacific Time.<br>
   <ul>
     <li>Project proposal: due Wednesday, April 25.</li>
     <li>Project milestone: due Wednesday, May 16.</li>
