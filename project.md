@@ -5,108 +5,55 @@ permalink: /project/
 title: Course project
 ---
 
-<h2>Overview</h2>
-  <p>
-    The Course Project is an opportunity for you to apply what you have learned in class to a
-    problem of your interest. Potential projects usually fall into these two tracks:
-  </p>
-  <ul>
-    <li>
-      <strong>Applications.</strong>
-      If you're coming to the class with a specific background and interests (e.g. biology,
+## Overview
+
+The Course Project is an opportunity for you to apply what you have learned in class to a
+problem of your interest. Potential projects usually fall into these two tracks:
+
+* **Applications:** If you're coming to the class with a specific background and interests (e.g. biology,
       engineering, physics), we'd love to see you apply ConvNets to problems related to your
       particular domain of interest. Pick a real-world problem and apply ConvNets to solve it.
-    </li>
-    <li>
-      <strong>Models.</strong>
-      You can build a new model (algorithm) with ConvNets, or a new variant of existing models,
+* **Models:** You can build a new model (algorithm) with ConvNets, or a new variant of existing models,
       and apply it to tackle vision tasks. This track might be more challenging, and sometimes
       leads to a piece of publishable work.
-    </li>
-  </ul>
-  <p>
-    One <b>restriction</b> to note is that this is a Computer Vision class, so your project should
-    involve pixels of visual data in some form somewhere. E.g. a pure NLP project is not a good
-    choice, even if your approach involves ConvNets.
-  </p>
-  <p>
-    To get a better feeling for what we expect from CS231n projects, we encourage you to take a
-    look at the project reports from previous years:
-    <ul>
-      <li><a href="http://cs231n.stanford.edu/2017/reports.html">Spring 2017</a></li>
-      <li><a href="http://cs231n.stanford.edu/2016/reports.html">Winter 2016</a></li>
-      <li><a href="http://cs231n.stanford.edu/2015/reports.html">Winter 2015</a></li>
-    </ul>
-  </p>
-  <p>
-    To inspire ideas, you might also look at recent deep learning publications from top-tier
-    conferences, as well as other resources below.
-  </p>
-  <ul>
-    <li>
-      <a href="http://openaccess.thecvf.com/CVPR2017.py">CVPR</a>: 
-      IEEE Conference on Computer Vision and Pattern Recognition
-    </li>
-    <li>
-      <a href="http://openaccess.thecvf.com/ICCV2017.py">ICCV</a>:
-      International Conference on Computer Vision
-    </li>
-    <li>
-      <a href="http://www.eccv2016.org/main-conference/">ECCV</a>:
-      European Conference on Computer Vision
-    </li>
-    <li>
-      <a href="https://papers.nips.cc/">NIPS</a>: Neural Information Processing Systems
-    </li>
-    <li>
-      <a href="https://openreview.net/group?id=ICLR.cc/2018/Conference">ICLR</a>:
-      International Conference on Learning Representations
-    </li>
-    <li>
-      <a href="https://icml.cc/Conferences/2017/Schedule?type=Poster">ICML</a>:
-      International Conference on Machine Learning
-    </li>
-    <li>
-      Publications from the <a href="http://vision.stanford.edu/publications.html">Stanford Vision Lab</a>
-    </li>
-    <li><a href="https://github.com/kjw0612/awesome-deep-vision">Awesome Deep Vision</a></li>
-    <li>
-      <a href="http://cs229.stanford.edu/projects.html">Past CS229 Projects</a>:
-      Example projects from Stanford's machine learning class
-    </li>
-    <li>
-      <a href="http://www.kaggle.com/">Kaggle challenges</a>:
-      An online machine learning competition website. For example, a
-      <a href="https://www.kaggle.com/c/yelp-restaurant-photo-classification">Yelp classification challenge</a>.
-    </li>
-  </ul>
-  <p>
-    For applications, this type of projects would involve careful data preparation, an appropriate
-    loss function, details of training and cross-validation and good test set evaluations and model
-    comparisons. Don't be afraid to think outside of the box. Some successful examples can be found
-    below:
-  </p>
-  <ul>
-    <li><a href="http://arxiv.org/abs/1412.3409">Teaching Deep Convolutional Neural Networks to Play Go</a></li>
-    <li><a href="http://arxiv.org/abs/1312.5602">Playing Atari with Deep Reinforcement Learning</a></li>
-    <li><a href="http://blog.kaggle.com/2014/04/18/winning-the-galaxy-challenge-with-convnets/">Winning the Galaxy Challenge with convnets</a>
-    <!-- <li><a href="http://benanne.github.io/2014/08/05/spotify-cnns.html">Recommending music on Spotify with deep learning</a></li> -->
-  </ul>
-  <p>
-    ConvNets also run in real time on mobile phones and Raspberry Pi's - building an interesting
-    mobile application could be a good project. If you want to go this route you might want to
-    check out <a href="https://www.tensorflow.org/mobile/">TensorFlow Mobile / Lite</a> or
-    <a href="https://caffe2.ai/docs/mobile-integration.html">Caffe2 iOS/Android integration</a>.
-  </p> 
-  <p>
-    For models, ConvNets have been successfully used in a variety of computer vision tasks. This
-    type of projects would involve understanding the state-of-the-art vision models, and building
-    new models or improving existing models for a vision task. The list below presents some papers
-    on recent advances of ConvNets in the computer vision community.
-  </p>
-  <ul>
-    <li>
-      <strong>Image Classification</strong>:
+
+To get a better feeling for what we expect from CS231n projects, we encourage you to take a
+look at the project reports from previous years:
+- [CS231n/Spring 2017](http://cs231n.stanford.edu/2017/reports.html)
+- [CS231n/Winter 2016](http://cs231n.stanford.edu/2016/reports.html)
+- [CS231n/Winter 2015](http://cs231n.stanford.edu/2015/reports.html)
+
+To inspire ideas, you might also look at recent deep learning publications from top-tier
+conferences, as well as other resources below.
+- [CVPR](http://openaccess.thecvf.com/CVPR2017.py): IEEE Conference on Computer Vision and Pattern Recognition
+- [ICCV](http://openaccess.thecvf.com/ICCV2017.py): International Conference on Computer Vision
+- [ECCV](http://www.eccv2016.org/main-conference/): European Conference on Computer Vision
+- [NIPS](https://papers.nips.cc/): Neural Information Processing Systems
+- [ICLR](https://openreview.net/group?id=ICLR.cc/2018/Conference): International Conference on Learning Representations
+- [ICML](https://icml.cc/Conferences/2017/Schedule?type=Poster): International Conference on Machine Learning
+- [Awesome Deep Vision](https://github.com/kjw0612/awesome-deep-vision)
+- [Kaggle challenges](http://www.kaggle.com/): An online machine learning competition website. For example, a [Yelp classification challenge](https://www.kaggle.com/c/yelp-restaurant-photo-classification).
+
+For applications, this type of projects would involve careful data preparation, an appropriate
+loss function, details of training and cross-validation and good test set evaluations and model
+comparisons. Don't be afraid to think outside of the box. Some successful examples can be found
+below:
+- [Teaching Deep Convolutional Neural Networks to Play Go]{http://arxiv.org/abs/1412.3409)
+- [Playing Atari with Deep Reinforcement Learning](http://arxiv.org/abs/1312.5602)
+- [Winning the Galaxy Challenge with convnets](http://blog.kaggle.com/2014/04/18/winning-the-galaxy-challenge-with-convnets/)
+- [Recommending music on Spotify with deep learning](http://benanne.github.io/2014/08/05/spotify-cnns.html)
+
+ConvNets also run in real time on mobile phones and Raspberry Pi's - building an interesting
+mobile application could be a good project. If you want to go this route you might want to
+check out <a href="https://www.tensorflow.org/mobile/">TensorFlow Mobile / Lite</a> or
+<a href="https://caffe2.ai/docs/mobile-integration.html">Caffe2 iOS/Android integration</a>.
+
+For models, ConvNets have been successfully used in a variety of computer vision tasks. This
+type of projects would involve understanding the state-of-the-art vision models, and building
+new models or improving existing models for a vision task. The list below presents some papers
+on recent advances of ConvNets in the computer vision community.
+
+### Image Classification
       <a href="http://www.cs.toronto.edu/~fritz/absps/imagenet.pdf">[Krizhevsky et al.]</a>,
       <a href="http://arxiv.org/abs/1409.0575">[Russakovsky et al.]</a>,
       <a href="http://arxiv.org/abs/1409.4842">[Szegedy et al.]</a>,
@@ -115,81 +62,69 @@ title: Course project
       <a href="https://arxiv.org/abs/1608.06993">[Huang et al.]</a>,
       <a href="https://arxiv.org/abs/1709.01507">[Hu et al.]</a>
       <a href="https://arxiv.org/abs/1707.07012">[Zoph et al.]</a>
-    </li>
-    <li>
-      <strong>Object detection</strong>:
+
+### Object detection
       <a href="http://arxiv.org/abs/1311.2524">[Girshick et al.]</a>,
       <a href="https://arxiv.org/abs/1506.01497">[Ren et al.]</a>,
       <a href="https://arxiv.org/abs/1703.06870">[He et al.]</a>
-    </li>
-    <li><strong>Image segmentation</strong>: 
+
+#### Image segmentation 
       <a href="http://arxiv.org/abs/1411.4038">[Long et al.]</a>
       <a href="https://arxiv.org/abs/1505.04366">[Noh et al.]</a>
       <a href="http://ieeexplore.ieee.org/abstract/document/7913730/">[Chen et al.]</a>
-    </li>
-    <li>
-      <strong>Video classification</strong>:
+
+### Video classification
       <a href="http://cs.stanford.edu/people/karpathy/deepvideo/">[Karpathy et al.]</a>,
       <a href="http://arxiv.org/abs/1406.2199">[Simonyan and Zisserman]</a>
       <a href="https://arxiv.org/abs/1412.0767">[Tran et al.]</a>
       <a href="https://arxiv.org/abs/1705.07750">[Carreira et al.]</a>
       <a href="https://arxiv.org/abs/1711.07971">[Wang et al.]</a>
-    </li>
-    <li><strong>Scene classification</strong>:
+
+### Scene classification
       <a href="http://places.csail.mit.edu/">[Zhou et al.]</a>
-    </li>
-    <li>
-      <strong>Face recognition</strong>:
+
+### Face recognition
       <a href="http://www.cv-foundation.org/openaccess/content_cvpr_2014/papers/Taigman_DeepFace_Closing_the_2014_CVPR_paper.pdf">[Taigman et al.]</a>
       <a href="https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Schroff_FaceNet_A_Unified_2015_CVPR_paper.pdf">[Schroff et al.]</a>
       <a href="http://cis.csuohio.edu/~sschung/CIS660/DeepFaceRecognition_parkhi15.pdf">[Parkhi et al.]</a>
-    </li>
-    <li>
-      <strong>Depth estimation</strong>:
+
+### Depth estimation
       <a href="http://www.cs.nyu.edu/~deigen/depth/">[Eigen et al.]</a>
-    </li>
-    <li>
-      <strong>Image-to-sentence generation</strong>:
+
+### Image-to-sentence generation
       <a href="http://cs.stanford.edu/people/karpathy/deepimagesent/">[Karpathy and Fei-Fei]</a>,
       <a href="http://arxiv.org/abs/1411.4389">[Donahue et al.]</a>,
       <a href="http://arxiv.org/abs/1411.4555">[Vinyals et al.]</a>
       <a href="https://arxiv.org/pdf/1502.03044.pdf">[Xu et al.]</a>
       <a href="https://arxiv.org/abs/1511.07571">[Johnson et al.]</a>
-    </li>
-    <li>
-      <strong>Visualization and optimization</strong>:
+
+### Visualization and optimization
       <a href="http://arxiv.org/pdf/1312.6199v4.pdf">[Szegedy et al.]</a>,
       <a href="http://arxiv.org/abs/1412.1897">[Nguyen et al.]</a>,
       <a href="http://arxiv.org/abs/1311.2901">[Zeiler and Fergus]</a>,
       <a href="http://arxiv.org/abs/1412.6572">[Goodfellow et al.]</a>,
       <a href="http://arxiv.org/abs/1312.6055">[Schaul et al.]</a>
-    </li>
-  </ul>
-  <p>
-    You might also gain inspiration by taking a look at some popular computer vision datasets:
-  </p>
-  <p>
-    <ul>
-      <li><a href="http://www.cvpapers.com/datasets.html">Meta Pointer: A large collection organized by CV Datasets.</a></li>
-      <li><a href="http://riemenschneider.hayko.at/vision/dataset/">Yet another Meta pointer</a></li>
-      <li><a href="http://http://image-net.org/">ImageNet</a>: a large-scale image dataset for visual recognition organized by <a href="http://wordnet.princeton.edu/">WordNet</a> hierarchy</li>
-      <li><a href="http://groups.csail.mit.edu/vision/SUN/">SUN Database</a>: a benchmark for scene recognition and object detection with annotated scene categories and segmented objects</li>
-      <li><a href="http://places.csail.mit.edu/">Places Database</a>: a scene-centric database with 205 scene categories and 2.5 millions of labelled images</li>
-      <li><a href="http://cs.nyu.edu/~silberman/datasets/nyu_depth_v2.html">NYU Depth Dataset v2</a>: a RGB-D dataset of segmented indoor scenes</li>
-      <li><a href="http://mscoco.org/">Microsoft COCO</a>: a new benchmark for image recognition, segmentation and captioning</li>
-      <li><a href="http://yahoolabs.tumblr.com/post/89783581601/one-hundred-million-creative-commons-flickr-images">Flickr100M</a>: 100 million creative commons Flickr images</li>
-      <li><a href="http://vis-www.cs.umass.edu/lfw/">Labeled Faces in the Wild</a>: a dataset of 13,000 labeled face photographs</li>
-      <li><a href="http://human-pose.mpi-inf.mpg.de/">Human Pose Dataset</a>: a benchmark for articulated human pose estimation</li>
-      <li><a href="http://www.cs.tau.ac.il/~wolf/ytfaces/">YouTube Faces DB</a>: a face video dataset for unconstrained face recognition in videos</li>
-      <li><a href="http://crcv.ucf.edu/data/UCF101.php">UCF101</a>: an action recognition data set of realistic action videos with 101 action categories</li>
-      <li><a href="http://serre-lab.clps.brown.edu/resource/hmdb-a-large-human-motion-database/">HMDB-51</a>: a large human motion dataset of 51 action classes</li>
-      <li><a href="http://activity-net.org/">ActivityNet</a>: A large-scale video dataset for human activity understanding</li>
-      <li><a href="http://moments.csail.mit.edu/">Moments in Time</a>: A dataset of one million 3-second videos</li>
-    </ul>
-  </p>
 
-  <h2>Collaboration Policy</h2>
-  <p>
+You might also gain inspiration by taking a look at some popular computer vision datasets:
+
+<li><a href="http://www.cvpapers.com/datasets.html">Meta Pointer: A large collection organized by CV Datasets.</a></li>
+<li><a href="http://riemenschneider.hayko.at/vision/dataset/">Yet another Meta pointer</a></li>
+<li><a href="http://http://image-net.org/">ImageNet</a>: a large-scale image dataset for visual recognition organized by <a href="http://wordnet.princeton.edu/">WordNet</a> hierarchy</li>
+<li><a href="http://groups.csail.mit.edu/vision/SUN/">SUN Database</a>: a benchmark for scene recognition and object detection with annotated scene categories and segmented objects</li>
+<li><a href="http://places.csail.mit.edu/">Places Database</a>: a scene-centric database with 205 scene categories and 2.5 millions of labelled images</li>
+<li><a href="http://cs.nyu.edu/~silberman/datasets/nyu_depth_v2.html">NYU Depth Dataset v2</a>: a RGB-D dataset of segmented indoor scenes</li>
+<li><a href="http://mscoco.org/">Microsoft COCO</a>: a new benchmark for image recognition, segmentation and captioning</li>
+<li><a href="http://yahoolabs.tumblr.com/post/89783581601/one-hundred-million-creative-commons-flickr-images">Flickr100M</a>: 100 million creative commons Flickr images</li>
+<li><a href="http://vis-www.cs.umass.edu/lfw/">Labeled Faces in the Wild</a>: a dataset of 13,000 labeled face photographs</li>
+<li><a href="http://human-pose.mpi-inf.mpg.de/">Human Pose Dataset</a>: a benchmark for articulated human pose estimation</li>
+<li><a href="http://www.cs.tau.ac.il/~wolf/ytfaces/">YouTube Faces DB</a>: a face video dataset for unconstrained face recognition in videos</li>
+<li><a href="http://crcv.ucf.edu/data/UCF101.php">UCF101</a>: an action recognition data set of realistic action videos with 101 action categories</li>
+<li><a href="http://serre-lab.clps.brown.edu/resource/hmdb-a-large-human-motion-database/">HMDB-51</a>: a large human motion dataset of 51 action classes</li>
+<li><a href="http://activity-net.org/">ActivityNet</a>: A large-scale video dataset for human activity understanding</li>
+<li><a href="http://moments.csail.mit.edu/">Moments in Time</a>: A dataset of one million 3-second videos</li>
+
+<h2>Collaboration Policy</h2>
+<p>
     You can work in teams of up to <strong>3</strong> people. We do expect that projects done with
     3 people have more impressive writeup and results than projects done with 2 people. To get a
     sense for the scope and expectations for 2-people projects have a look at project reports from
