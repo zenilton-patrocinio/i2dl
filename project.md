@@ -280,17 +280,17 @@ these sections in this order, but that would likely be a good starting point for
   <ul>
     <li>
       <b>Your report PDF should list <i>all</i> authors who have contributed to your work; enough to
-        warrant a co-authorship position.</b> This includes people not enrolled in CS 231N such as
+        warrant a co-authorship position.</b> This includes people not enrolled in i@DL such as
       faculty/advisors if they sponsored your work with funding or data, significant mentors (e.g.,
       PhD students or postdocs who coded with you, collected data with you, or helped draft your
       model on a whiteboard). All authors should be listed directly underneath the title on your PDF.
-      Include a footnote on the first page indicating which authors are not enrolled in CS 231N. All
+      Include a footnote on the first page indicating which authors are not enrolled in i2DL. All
       co-authors should have their institutional/organizational affiliation specified below the title.
     </li>
     <ul>
-      <li>If you have non-231N contributors, you will be asked to describe the following:</li>
+      If you have non-i2DL contributors, you will be asked to describe the following:
       <li>
-        <b>Specify the involvement of non-CS 231N contributors</b>
+        <b>Specify the involvement of non-I2DL contributors</b>
         (discussion, writing code, writing paper, etc). For an example, please see the author
         contributions for <a href="https://www.nature.com/nature/journal/v529/n7587/full/nature16961.html#author-information" target="_blank">AlphaGo (Nature, 2016)</a>.
         <li>
@@ -302,7 +302,7 @@ these sections in this order, but that would likely be a good starting point for
     </ul>
     <li>
       <b>Any code that was used as a base for projects must be referenced and cited in the body of the paper.</b>
-      This includes CS 231N assignment code, finetuning example code, open-source, or Github
+      This includes I2DL assignment code, finetuning example code, open-source, or Github
       implementations. You can use a footnote or full reference/bibliography entry.
     </li>
     <li>
@@ -311,7 +311,7 @@ these sections in this order, but that would likely be a good starting point for
     </li>
   </ul>
 
-In summary, include all contributing authors in your PDF; include detailed non-231N co-author
+In summary, include all contributing authors in your PDF; include detailed co-author
 information; tell us if you submitted to a conference, cite any code you used, and submit your
-dual-project report (e.g., CS 230, CS 231A, CS 234).
+dual-project report (e.g., submitted for more than one course).
 
