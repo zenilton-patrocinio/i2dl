@@ -17,11 +17,12 @@ problem of your interest. Potential projects usually fall into these two tracks:
       and apply it to tackle vision tasks. This track might be more challenging, and sometimes
       leads to a piece of publishable work.
 
-To get a better feeling for what we expect from CS231n projects, we encourage you to take a
-look at the project reports from previous years:
+To get a better feeling for what we expect from your projects, we encourage you to take a
+look at the project reports from previous years of Stanford/CS231n and Berkeley/CS294-129:
 - [CS231n/Spring 2017](http://cs231n.stanford.edu/2017/reports.html)
 - [CS231n/Winter 2016](http://cs231n.stanford.edu/2016/reports.html)
 - [CS231n/Winter 2015](http://cs231n.stanford.edu/2015/reports.html)
+- [CS294-129/Fall 2016](https://bcourses.berkeley.edu/courses/1453965/pages/projects)
 
 To inspire ideas, you might also look at recent deep learning publications from top-tier
 conferences, as well as other resources below.
@@ -173,7 +174,9 @@ describe:
       compare your results (e.g. what performance metrics or statistical tests)?
     </li>
   </ul>
-**Submission:** Please submit your proposal as a PDF file.
+  
+**Submission:** 
+Please submit your proposal as a PDF file.
 
 ## Project Milestone
 Your project milestone report should be between 2 - 3 pages using the  <a href="http://cvpr2017.thecvf.com/files/cvpr2017AuthorKit.zip">provided template</a>.
@@ -188,7 +191,9 @@ The following is a suggested structure for your report:
       Intermediate/Preliminary Results: State and evaluate your results upto the milestone
       </li>
 </ul>
-**Submission:** Please submit your milestone report as a PDF file.
+
+**Submission:** 
+Please submit your milestone report as a PDF file.
 
 ## Final Report
 
