@@ -5,7 +5,7 @@ permalink: /project/
 title: Course project
 ---
 
-## Overview
+### Overview
 
 The Course Project is an opportunity for you to apply what you have learned in class to a
 problem of your interest. Potential projects usually fall into these two tracks:
@@ -54,7 +54,7 @@ type of projects would involve understanding the state-of-the-art vision models,
 new models or improving existing models for a vision task. The list below presents some papers
 on recent advances of ConvNets in the computer vision community.
 
-### Image Classification
+#### Image Classification
 - <a href="http://www.cs.toronto.edu/~fritz/absps/imagenet.pdf">[Krizhevsky et al.]</a>,
 - <a href="http://arxiv.org/abs/1409.0575">[Russakovsky et al.]</a>,
 - <a href="http://arxiv.org/abs/1409.4842">[Szegedy et al.]</a>,
@@ -64,7 +64,7 @@ on recent advances of ConvNets in the computer vision community.
 - <a href="https://arxiv.org/abs/1709.01507">[Hu et al.]</a>
 - <a href="https://arxiv.org/abs/1707.07012">[Zoph et al.]</a>
 
-### Object detection
+#### Object detection
 - <a href="http://arxiv.org/abs/1311.2524">[Girshick et al.]</a>,
 - <a href="https://arxiv.org/abs/1506.01497">[Ren et al.]</a>,
 - <a href="https://arxiv.org/abs/1703.06870">[He et al.]</a>
@@ -74,32 +74,32 @@ on recent advances of ConvNets in the computer vision community.
 - <a href="https://arxiv.org/abs/1505.04366">[Noh et al.]</a>
 - <a href="http://ieeexplore.ieee.org/abstract/document/7913730/">[Chen et al.]</a>
 
-### Video classification
+#### Video classification
 - <a href="http://cs.stanford.edu/people/karpathy/deepvideo/">[Karpathy et al.]</a>,
 - <a href="http://arxiv.org/abs/1406.2199">[Simonyan and Zisserman]</a>
 - <a href="https://arxiv.org/abs/1412.0767">[Tran et al.]</a>
 - <a href="https://arxiv.org/abs/1705.07750">[Carreira et al.]</a>
 - <a href="https://arxiv.org/abs/1711.07971">[Wang et al.]</a>
 
-### Scene classification
+#### Scene classification
 - <a href="http://places.csail.mit.edu/">[Zhou et al.]</a>
 
-### Face recognition
+#### Face recognition
 - <a href="http://www.cv-foundation.org/openaccess/content_cvpr_2014/papers/Taigman_DeepFace_Closing_the_2014_CVPR_paper.pdf">[Taigman et al.]</a>
 - <a href="https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Schroff_FaceNet_A_Unified_2015_CVPR_paper.pdf">[Schroff et al.]</a>
 - <a href="http://cis.csuohio.edu/~sschung/CIS660/DeepFaceRecognition_parkhi15.pdf">[Parkhi et al.]</a>
 
-### Depth estimation
+#### Depth estimation
 - <a href="http://www.cs.nyu.edu/~deigen/depth/">[Eigen et al.]</a>
 
-### Image-to-sentence generation
+#### Image-to-sentence generation
 - <a href="http://cs.stanford.edu/people/karpathy/deepimagesent/">[Karpathy and Fei-Fei]</a>,
 - <a href="http://arxiv.org/abs/1411.4389">[Donahue et al.]</a>,
 - <a href="http://arxiv.org/abs/1411.4555">[Vinyals et al.]</a>
 - <a href="https://arxiv.org/pdf/1502.03044.pdf">[Xu et al.]</a>
 - <a href="https://arxiv.org/abs/1511.07571">[Johnson et al.]</a>
 
-### Visualization and optimization
+#### Visualization and optimization
 - <a href="http://arxiv.org/pdf/1312.6199v4.pdf">[Szegedy et al.]</a>,
 - <a href="http://arxiv.org/abs/1412.1897">[Nguyen et al.]</a>,
 - <a href="http://arxiv.org/abs/1311.2901">[Zeiler and Fergus]</a>,
@@ -124,7 +124,7 @@ You might also gain inspiration by taking a look at some popular computer vision
 - <a href="http://activity-net.org/">ActivityNet</a>: A large-scale video dataset for human activity understanding
 - <a href="http://moments.csail.mit.edu/">Moments in Time</a>: A dataset of one million 3-second videos
 
-## Collaboration Policy
+### Collaboration Policy
 
 You can work in teams of up to <strong>2~3</strong> people. We do expect that projects done with
 3 people have more impressive writeup and results than projects done with 2 people. To get a
@@ -147,14 +147,14 @@ previous years.
   </p>
 -->
 
-## Important Dates
+### Important Dates
   <ul>
     <li>Project proposal: due Tuesday, June 19.</li>
     <li>Project milestone: due Tuesday, July 10.</li>
     <li>Final report: due Wednesday, August 1. <b>No late days.</b></li>
   </ul>
 
-## Project Proposal
+### Project Proposal
 he project proposal should be one paragraph (200-400 words). Your project proposal should
 describe:
 
@@ -178,7 +178,7 @@ describe:
 **Submission:** 
 Please submit your proposal as a PDF file.
 
-## Project Milestone
+### Project Milestone
 Your project milestone report should be between 2 - 3 pages using the  <a href="http://cvpr2017.thecvf.com/files/cvpr2017AuthorKit.zip">provided template</a>.
 The following is a suggested structure for your report:
 
@@ -195,7 +195,7 @@ The following is a suggested structure for your report:
 **Submission:** 
 Please submit your milestone report as a PDF file.
 
-## Final Report
+### Final Report
 
 Your final write-up is required to be between <b>6 - 8</b> pages using the
 <a href="http://www.pamitc.org/cvpr15/files/cvpr2015AuthorKit.zip">provided template</a>,
