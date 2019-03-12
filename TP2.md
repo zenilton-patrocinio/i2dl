@@ -27,7 +27,7 @@ Obtenha os códigos/notebooks dessa atividade como um arquivo zipado [aqui](http
 
 ### Trabalhando remotamente na Google Cloud  usando CoLaboratory
 
-Você pode usar  [Google Colab](https://colab.research.google.com/) para realizar sua atividade. Dessa forma, você evitaria o trabalho de configurar sua instalação local, além de poder tirar melhor proveito de recursos CPU/GPU que os disponíveis localmente. Veja na [página da disciplina](http://www.icei.pucminas.br/professores/zenilton/introduction-to-deep-learning-2018/) para maiores informações.
+Você pode usar  [Google Colab](https://colab.research.google.com/) para realizar sua atividade. Dessa forma, você evitaria o trabalho de configurar sua instalação local, além de poder tirar melhor proveito de recursos CPU/GPU que os disponíveis localmente. Veja na [página da disciplina](http://www.icei.pucminas.br/professores/zenilton/introduction-to-deep-learning-2019/) para maiores informações.
 
 ### Trabalhando localmente
 Para você trabalhar localmente, deve seguir os passos abaixo:
@@ -48,7 +48,7 @@ o treinamento um pouco lento na parte final. Contudo, nosso código de referênc
 em um laptop dual-core sem GPU (portanto, é plenamento viável fazê-lo sem a necessidade de GPU).
 
 **Instalar Python 3.5+:**
-Você deverá usar **python3** (não deixe de verificar se sua instalação é das versões 3.5 ou 3.6). Veja mais informações sobre instalação de *python* na [página da disciplina](http://www.icei.pucminas.br/professores/zenilton/introduction-to-deep-learning-2018/).
+Você deverá usar **python3** (não deixe de verificar se sua instalação é das versões 3.5 ou 3.6). Veja mais informações sobre instalação de *python* na [página da disciplina](http://www.icei.pucminas.br/professores/zenilton/introduction-to-deep-learning-2019/).
 
 **Ambiente virtual:**
 Caso você decida trabalhar localmente, é recomendável que você utilize um [ambiente virtual](http://docs.python-guide.org/en/latest/dev/virtualenvs/) para o seu trabalho. Caso você devida não usar um ambiente virtual, você deverá garantir que todas as dependências necessárias para o funcionamento do código estejam instaladas de forma global em sua máquina.
@@ -137,7 +137,7 @@ Depois de você obter o conjunto de dados CIFAR-10, você deve iniciar o noteboo
 (ou Jupyter) a partir do diretório `TP2`, usando o comando `jupyter notebook`.
 
 Caso você não esteja familiarizado com notebooks IPython, veja na 
-[página da disciplina](http://www.icei.pucminas.br/professores/zenilton/introduction-to-deep-learning-2018/) 
+[página da disciplina](http://www.icei.pucminas.br/professores/zenilton/introduction-to-deep-learning-2019/) 
 para maiores informações.
 
 ### Q1: Rede Neural Profunda (25 pontos)
