@@ -149,9 +149,9 @@ previous years of Stanford/CS231n and Berkeley/CS294-129 (see above).
 
 ### Important Dates
   <ul>
-    <li>Project proposal: due Tuesday, June 19.</li>
-    <li>Project milestone: due Tuesday, July 10.</li>
-    <li>Final report: due Wednesday, August 1. <b>No late days.</b></li>
+    <li>Project proposal: due Monday, April 22.</li>
+    <li>Project milestone: due Monday, May 27.</li>
+    <li>Final report: due Wednesday, July 3. <b>No late days.</b></li>
   </ul>
 
 ### Project Proposal
