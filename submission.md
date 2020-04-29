@@ -5,7 +5,7 @@ permalink: /submission/
 title: Submissão de Atividades Práticas
 ---
 
-A entrega de atividades práticas deve ser feita por meio do ... <!-- [Google Classroom](https://classroom.google.com/c/MTI4NDc5MjEwNTBa).-->
+A entrega de atividades práticas deve ser feita por meio do [Canvas](https://pucminas.instructure.com/courses/25118). <!-- [Google Classroom](https://classroom.google.com/c/MTI4NDc5MjEwNTBa).-->
 
 Serão necessários **dois passos** para submetir sua atividade:
 
